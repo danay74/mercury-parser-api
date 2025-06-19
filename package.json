@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "author": "Postlight",
   "description": "The serverless Postlight Parser API",
+  "engines": {
+  "node": ">=18"
+},
   "main": "src/handler.js",
   "scripts": {
     "deploy:env": "cross-env-shell sls deploy --stage $NODE_ENV",
